@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    align-items: center;
+}
+.formcontainer{
+    border: 1px solid silver;
+    width: 400px;
+    padding: 50px;
+    margin: 50px;
+    height: fit-content;
+    background-color: #fff;
+
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size:1.8rem;
+    color:#1a73e8;
+}
+.formfield{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: 75px;
+}
+.formfield label{
+    text-align: left;
+    margin-bottom: 5px;
+    color:rgb(85,85,85);
+    font-size: 0.9rem;
+}
+.formfield input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    border: 1px solid silver;
+    transition: all 0.2  ease-in;
+
+}
+.formfield span{
+    height: 10px;
+    text-align: left;
+    margin-top: 5px;
+    width: fit-content;
+    font-size: 0.7rem;
+    line-height: 10px;
+    padding: 2px 3px;
+    border-radius: 3px;
+    background-color: rgba(255,0,0,0.175);
+}
+.uncomplated{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px 10px;
+    border: 1px solid red;
+    transition: all 0.2s ease-in;
+}
+
+.forminput:focus ,
+.uncomplated:focus{
+    outline: none;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #1a73e8;
+}
+.formbutton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.formbutton button{
+    background-color: #1a73e8;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    border:none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.formbutton button:hover{
+    background-color: #004aaa;
+}
+.checkbox{
+    display: flex;
+    font-size: 0.85rem;
+    flex-direction: row !important;
+    align-items: center;
+    height: 20px !important;
+    text-align: center;
+}
+
+.formbutton a{
+    
+   
+    font-size:0.875rem;
+    color:#1a73e8;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    font-weight: 1000;
+
+
+}
+.formbutton  a:hover{
+    background-color: #004aaa;
+    color: #fff;
+}
